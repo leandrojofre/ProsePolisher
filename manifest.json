@@ -1,12 +1,13 @@
 {
     "display_name": "Prose Polisher (Slop Analyzer)",
-    "author": "@NemoVonNirgend & AI Collaboration (refactored)",
+    "author": "@NemoVonNirgend, modifications by Karelian",
     "version": "1.0.0",
     "description": "Analyzes AI writing for repetitive phrases ('slop') and saves results to {{slopList}} macro.",
     "requires": [],
     "optional": [],
     "js": "content.js",
     "css": "styles.css",
-    "homePage": "https://github.com/NemoVonNirgend/ProsePolisher",
+    "homePage": "https://github.com/unkarelian/ProsePolisher",
     "loading_order": 1000
+
 }
