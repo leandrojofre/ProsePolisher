@@ -66,7 +66,3 @@ Settings live under the extension drawer in SillyTavern and persist via `extensi
 - `analyzer.js` – scoring engine, pattern detection, whitelist/blacklist tooling, and analysis workflows
 - Data files: `common_words.js`, `lemmas.js`, and `default_names.js` for filtering and lemmatization
 - `styles.css` – drawer and popup styling used by the extension
-
-## License
-
-Same license as the original ProsePolisher extension.
