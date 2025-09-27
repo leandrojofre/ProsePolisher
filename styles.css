@@ -1,0 +1,114 @@
+/* ProsePolisher Extension Styles */
+
+/* Ensure drawer content is properly styled and hidden by default */
+.prose-polisher-settings .inline-drawer-content {
+    display: none;
+    padding: 10px;
+}
+
+/* Show content when drawer is open */
+.prose-polisher-settings .inline-drawer.open .inline-drawer-content {
+    display: block;
+}
+
+/* Settings group container */
+.prose-polisher-settings-group {
+    margin: 10px 0;
+}
+
+.prose-polisher-settings-group .range-block {
+    margin: 15px 0;
+}
+
+/* Style for list items in managers */
+.prose-polisher-whitelist-manager .list-container,
+.prose-polisher-blacklist-manager .list-container {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: var(--SmartThemeBlurTintColor);
+}
+
+.prose-polisher-whitelist-manager .list-container ul,
+.prose-polisher-blacklist-manager .list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.prose-polisher-whitelist-manager .list-container li,
+.prose-polisher-blacklist-manager .list-container li {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--SmartThemeBorderColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prose-polisher-whitelist-manager .list-container li:last-child,
+.prose-polisher-blacklist-manager .list-container li:last-child {
+    border-bottom: none;
+}
+
+.prose-polisher-whitelist-manager .list-container li span,
+.prose-polisher-blacklist-manager .list-container li span {
+    flex-grow: 1;
+    word-break: break-word;
+}
+
+.prose-polisher-whitelist-manager .list-container li .delete-btn,
+.prose-polisher-blacklist-manager .list-container li .delete-btn {
+    margin-left: 10px;
+    color: var(--SmartThemeQuoteColor);
+    cursor: pointer;
+}
+
+.prose-polisher-whitelist-manager .add-controls,
+.prose-polisher-blacklist-manager .add-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.prose-polisher-whitelist-manager .add-controls .text_pole,
+.prose-polisher-blacklist-manager .add-controls .text_pole {
+    flex-grow: 1;
+}
+
+/* Style for frequency leaderboard table */
+.prose-polisher-frequency-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.prose-polisher-frequency-table th,
+.prose-polisher-frequency-table td {
+    border: 1px solid var(--SmartThemeBorderColor);
+    padding: 8px;
+    text-align: left;
+}
+
+.prose-polisher-frequency-table th {
+    background-color: var(--SmartThemeBlurTintColor);
+    font-weight: bold;
+}
+
+.prose-polisher-frequency-table tr:nth-child(even) {
+    background-color: var(--SmartThemeBlurTintColor);
+}
+
+.prose-polisher-frequency-table tr:hover {
+    background-color: var(--SmartThemeEmColor);
+}
+
+.prose-polisher-frequency-table td:first-child {
+    word-break: break-word;
+}
+
+.prose-polisher-frequency-table .is-pattern td:first-child {
+    font-weight: bold;
+    color: var(--SmartThemeQuoteColor);
+}
