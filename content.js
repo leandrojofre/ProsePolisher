@@ -244,29 +244,29 @@ function setupUI() {
                     
                     <h3>Analysis Tools</h3>
                     <div class="flex-container flexGap10">
-                        <button id="pp-analyze-chat" class="menu_button">
+                        <button id="pp-analyze-chat" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-magnifying-glass-chart"></i>
-                            Analyze Chat History
+                            <span>Analyze Chat History</span>
                         </button>
-                        <button id="pp-view-frequency" class="menu_button">
+                        <button id="pp-view-frequency" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-chart-line"></i>
-                            View Frequency Data
+                            <span>View Frequency Data</span>
                         </button>
-                        <button id="pp-clear-frequency" class="menu_button">
+                        <button id="pp-clear-frequency" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-trash-can"></i>
-                            Clear Frequency Data
+                            <span>Clear Frequency Data</span>
                         </button>
                     </div>
                     
                     <h3>List Management</h3>
                     <div class="flex-container flexGap10">
-                        <button id="pp-whitelist-manager" class="menu_button">
+                        <button id="pp-whitelist-manager" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-shield-check"></i>
-                            Whitelist Manager
+                            <span>Whitelist Manager</span>
                         </button>
-                        <button id="pp-blacklist-manager" class="menu_button">
+                        <button id="pp-blacklist-manager" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-ban"></i>
-                            Blacklist Manager
+                            <span>Blacklist Manager</span>
                         </button>
                     </div>
                     

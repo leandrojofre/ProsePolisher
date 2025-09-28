@@ -113,3 +113,9 @@
     font-weight: bold;
     color: var(--SmartThemeQuoteColor);
 }
+
+/* General Use Styles */
+
+.w-auto {
+    width: auto;
+}
