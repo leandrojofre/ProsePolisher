@@ -18,6 +18,7 @@
 
 .prose-polisher-settings-group .range-block {
     margin: 15px 0;
+    gap: 10px;
 }
 
 /* Style for list items in managers */
