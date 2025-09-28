@@ -172,45 +172,45 @@ function setupUI() {
                             <label for="pp-ngram-max" title="Maximum phrase length to analyze - longer phrases may be more meaningful but require more processing">
                                 <span>Max N-gram Size</span>
                             </label>
-                            <div class="range-block-range">
-                                <input type="range" id="pp-ngram-max" class="slider" min="3" max="15" value="${settings.ngramMax}" step="1">
-                                <input type="number" id="pp-ngram-max-counter" class="slider-counter" min="3" max="15" value="${settings.ngramMax}" step="1">
+                            <div class="alignitemscenter flex-container flexFlowColumn flexBasis30p flexGrow flexShrink gap0">
+                                <input type="range" id="pp-ngram-max" class="neo-range-slider" min="3" max="15" value="${settings.ngramMax}" step="1">
+                                <input type="number" id="pp-ngram-max-counter" class="neo-range-input" min="3" max="15" value="${settings.ngramMax}" step="1">
                             </div>
                         </div>
                         <div class="range-block">
                             <label for="pp-slop-threshold" title="Score threshold for flagging phrases as repetitive slop - lower values catch more phrases">
                                 <span>Slop Threshold</span>
                             </label>
-                            <div class="range-block-range">
-                                <input type="range" id="pp-slop-threshold" class="slider" min="1" max="10" value="${settings.slopThreshold}" step="0.1">
-                                <input type="number" id="pp-slop-threshold-counter" class="slider-counter" min="1" max="10" value="${settings.slopThreshold}" step="0.1">
+                            <div class="alignitemscenter flex-container flexFlowColumn flexBasis30p flexGrow flexShrink gap0">
+                                <input type="range" id="pp-slop-threshold" class="neo-range-slider" min="1" max="10" value="${settings.slopThreshold}" step="0.1">
+                                <input type="number" id="pp-slop-threshold-counter" class="neo-range-input" min="1" max="10" value="${settings.slopThreshold}" step="0.1">
                             </div>
                         </div>
                         <div class="range-block">
                             <label for="pp-decay-rate" title="Percentage by which old phrase scores decay (0-50%)">
                                 <span>Score Decay Rate (%)</span>
                             </label>
-                            <div class="range-block-range">
-                                <input type="range" id="pp-decay-rate" class="slider" min="0" max="50" value="${settings.decayRate}" step="5">
-                                <input type="number" id="pp-decay-rate-counter" class="slider-counter" min="0" max="50" value="${settings.decayRate}" step="5">
+                            <div class="alignitemscenter flex-container flexFlowColumn flexBasis30p flexGrow flexShrink gap0">
+                                <input type="range" id="pp-decay-rate" class="neo-range-slider" min="0" max="50" value="${settings.decayRate}" step="5">
+                                <input type="number" id="pp-decay-rate-counter" class="neo-range-input" min="0" max="50" value="${settings.decayRate}" step="5">
                             </div>
                         </div>
                         <div class="range-block">
                             <label for="pp-decay-interval" title="Number of messages between each decay application">
                                 <span>Decay Interval (messages)</span>
                             </label>
-                            <div class="range-block-range">
-                                <input type="range" id="pp-decay-interval" class="slider" min="5" max="50" value="${settings.decayInterval}" step="5">
-                                <input type="number" id="pp-decay-interval-counter" class="slider-counter" min="5" max="50" value="${settings.decayInterval}" step="5">
+                            <div class="alignitemscenter flex-container flexFlowColumn flexBasis30p flexGrow flexShrink gap0">
+                                <input type="range" id="pp-decay-interval" class="neo-range-slider" min="5" max="50" value="${settings.decayInterval}" step="5">
+                                <input type="number" id="pp-decay-interval-counter" class="neo-range-input" min="5" max="50" value="${settings.decayInterval}" step="5">
                             </div>
                         </div>
                         <div class="range-block">
                             <label for="pp-pattern-min-common" title="Minimum common words needed to merge similar phrases into patterns">
                                 <span>Pattern Min Common Words</span>
                             </label>
-                            <div class="range-block-range">
-                                <input type="range" id="pp-pattern-min-common" class="slider" min="2" max="5" value="${settings.patternMinCommon}" step="1">
-                                <input type="number" id="pp-pattern-min-common-counter" class="slider-counter" min="2" max="5" value="${settings.patternMinCommon}" step="1">
+                            <div class="alignitemscenter flex-container flexFlowColumn flexBasis30p flexGrow flexShrink gap0">
+                                <input type="range" id="pp-pattern-min-common" class="neo-range-slider" min="2" max="5" value="${settings.patternMinCommon}" step="1">
+                                <input type="number" id="pp-pattern-min-common-counter" class="neo-range-input" min="2" max="5" value="${settings.patternMinCommon}" step="1">
                             </div>
                         </div>
                     </div>
@@ -225,18 +225,18 @@ function setupUI() {
                             <label for="pp-analysis-interval" title="Number of messages between automatic analyses">
                                 <span>Analysis Interval</span>
                             </label>
-                            <div class="range-block-range">
-                                <input type="range" id="pp-analysis-interval" class="slider" min="10" max="100" value="${settings.analysisInterval}" step="10">
-                                <input type="number" id="pp-analysis-interval-counter" class="slider-counter" min="10" max="100" value="${settings.analysisInterval}" step="10">
+                            <div class="alignitemscenter flex-container flexFlowColumn flexBasis30p flexGrow flexShrink gap0">
+                                <input type="range" id="pp-analysis-interval" class="neo-range-slider" min="10" max="100" value="${settings.analysisInterval}" step="10">
+                                <input type="number" id="pp-analysis-interval-counter" class="neo-range-input" min="10" max="100" value="${settings.analysisInterval}" step="10">
                             </div>
                         </div>
                         <div class="range-block">
                             <label for="pp-message-limit" title="Number of recent messages to analyze (-1 for all messages)">
                                 <span>Message Limit</span>
                             </label>
-                            <div class="range-block-range">
-                                <input type="range" id="pp-message-limit" class="slider" min="-1" max="200" value="${settings.messageLimit}" step="10">
-                                <input type="number" id="pp-message-limit-counter" class="slider-counter" min="-1" max="1000" value="${settings.messageLimit}" step="1">
+                            <div class="alignitemscenter flex-container flexFlowColumn flexBasis30p flexGrow flexShrink gap0">
+                                <input type="range" id="pp-message-limit" class="neo-range-slider" min="-1" max="200" value="${settings.messageLimit}" step="10">
+                                <input type="number" id="pp-message-limit-counter" class="neo-range-input" min="-1" max="1000" value="${settings.messageLimit}" step="1">
                             </div>
                             <small style="display: block; margin-top: 5px; opacity: 0.8;">Set to -1 to analyze entire chat history, or specify a number to only analyze the last N messages</small>
                         </div>
@@ -244,29 +244,29 @@ function setupUI() {
                     
                     <h3>Analysis Tools</h3>
                     <div class="flex-container flexGap10">
-                        <button id="pp-analyze-chat" class="menu_button">
+                        <button id="pp-analyze-chat" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-magnifying-glass-chart"></i>
-                            Analyze Chat History
+                            <span>Analyze Chat History</span>
                         </button>
-                        <button id="pp-view-frequency" class="menu_button">
+                        <button id="pp-view-frequency" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-chart-line"></i>
-                            View Frequency Data
+                            <span>View Frequency Data</span>
                         </button>
-                        <button id="pp-clear-frequency" class="menu_button">
+                        <button id="pp-clear-frequency" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-trash-can"></i>
-                            Clear Frequency Data
+                            <span>Clear Frequency Data</span>
                         </button>
                     </div>
                     
                     <h3>List Management</h3>
                     <div class="flex-container flexGap10">
-                        <button id="pp-whitelist-manager" class="menu_button">
+                        <button id="pp-whitelist-manager" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-shield-check"></i>
-                            Whitelist Manager
+                            <span>Whitelist Manager</span>
                         </button>
-                        <button id="pp-blacklist-manager" class="menu_button">
+                        <button id="pp-blacklist-manager" class="menu_button w-auto gap5px">
                             <i class="fa-solid fa-ban"></i>
-                            Blacklist Manager
+                            <span>Blacklist Manager</span>
                         </button>
                     </div>
                     

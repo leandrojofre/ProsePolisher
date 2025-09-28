@@ -18,6 +18,7 @@
 
 .prose-polisher-settings-group .range-block {
     margin: 15px 0;
+    gap: 15px;
 }
 
 /* Style for list items in managers */
@@ -111,4 +112,10 @@
 .prose-polisher-frequency-table .is-pattern td:first-child {
     font-weight: bold;
     color: var(--SmartThemeQuoteColor);
+}
+
+/* General Use Styles */
+
+.w-auto {
+    width: auto;
 }
